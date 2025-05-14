@@ -1,0 +1,4 @@
+# .obsidian
+# Ignore appearance-based configuration files.
+.obsidian/workspace.json
+
