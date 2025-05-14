@@ -4,5 +4,9 @@ weblinks
 ___
 # obsidian-poweruser-pms
 Personal Management System for power users using the Zettelkasten method in the Obsidian notes app.
-## [[setup PMS repo|setup]]
-
+## setup PMS repo
+1. Open up a command-line shell.
+2. Navigate to your vault directory.  
+3. Clone this repo. A directory with the repo name should appear in the vault.
+4. Navigate into the cloned repo.
+5. Run `export_config.sh` to copy the `.obsidian` configuration into the vault root directory.
