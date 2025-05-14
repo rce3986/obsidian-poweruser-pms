@@ -1,5 +1,9 @@
-1. Open up a command line shell.
-2. Navigate to your vault directory.
-3. Clone this repo.
-4. Move `.obsidian` from the vault root into the cloned repo.
-5. Place a symlink pointing to the moved `.obsidian` in the vault root.
+tags 
+backlinks `= join(file.inlinks)`
+outgoing links 
+___
+1. Open up a command-line shell.
+2. Navigate to your vault directory.  
+3. Clone this repo. A directory with the repo name should appear in the vault.
+4. Navigate into the cloned repo.
+5. Run `export_config.sh` to copy the `.obsidian` configuration into the vault root directory.
