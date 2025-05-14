@@ -1,6 +1,6 @@
 tags 
-backlinks `= join(file.inlinks)`
-outgoing links 
+inlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" ")`
+weblinks 
 ___
 1. Open up a command-line shell.
 2. Navigate to your vault directory.  
