@@ -13,6 +13,6 @@ You must have an Obsidian vault before setting up this PMS.
 4. Navigate into the cloned repo.
 5. Run `export_config.sh` to copy the `.obsidian` configuration into the vault root directory.
 ## explore
-Open your obsidian vault and explore the notes linked below. You can always navigate back using the inlinks at the top of the note.
+Open your obsidian vault and explore the notes linked below. You can always navigate back using the backlinks at the top of the note.
 ### [[PMS MOC]]
 
