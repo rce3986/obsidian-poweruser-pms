@@ -1,4 +1,4 @@
-tags 
+tags #moc
 backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" ")`
 weblinks https://github.com/rce3986/obsidian-poweruser-pms
 ___
@@ -8,7 +8,7 @@ Below are links for understanding and using OPUP:
 
 - [[personal management system (PMS)]]
 - [[map of content (MOC)]]
-- [[Zettelkasten MOC]]
-- [[OPUP plugins MOC]]
+- [[Zettelkasten]]
+- [[OPUP plugins]]
 - [[Obsidian inspector workflow]]
-- [[OPUP templates MOC]]
+- [[OPUP templates]]
