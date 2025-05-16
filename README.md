@@ -3,7 +3,7 @@ backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current()
 weblinks 
 ___
 # obsidian-power-user-pms
-If viewing this on GitHub, don't be intimidated by the cryptic code at the top, don't be. It is a critical element of all notes in Obsidian power user PMS (OPUP).
+If viewing this on GitHub, don't be intimidated by the cryptic code at the top. It is a critical element of all notes in Obsidian power user PMS (OPUP).
 
 OPUP is a personal management system (PMS) geared towards power users using the Zettelkasten note-taking method in the Obsidian notes app.
 
@@ -26,10 +26,13 @@ You must install Obsidian before setting up OPUP.
 7. Run `export_config.sh` to copy the `.obsidian` configuration into the vault root directory.
 ## explore
 Open your obsidian vault and explore the notes linked below. You can always navigate back using the backlinks at the top of the note.
+### about OPUP
 
 - [[Obsidian power user PMS (OPUP)]]
 - [[Zettelkasten]]
 - [[personal knowledge management system (PKMS)]]
+### features
+
 - [[timesheet]]
 
 
