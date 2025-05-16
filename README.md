@@ -3,19 +3,19 @@ backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current()
 weblinks 
 ___
 # obsidian-power-user-pms
-If viewing this on GitHub, don't be intimidated by the cryptic code at the top and the square-bracketed phrases scattered throughout the page: these are important elements of [[Obsidian power user PMS (OPUP)]].
+If viewing this on GitHub, don't be intimidated by the cryptic code at the top, don't be. It is a critical element of all notes in Obsidian power user PMS (OPUP).
 
-[[Obsidian power user PMS (OPUP)|OPUP]] is a [[personal management system (PMS)]] geared towards power users using the [[Zettelkasten]] note-taking method in the Obsidian notes app.
+OPUP is a personal management system (PMS) geared towards power users using the Zettelkasten note-taking method in the Obsidian notes app.
 
-If you don't consider yourself to be a power user, don't worry! [[Obsidian power user PMS (OPUP)|OPUP]] contains the documentation needed to understand how it works, the principles it follows, and how to continuously build off of it. If you take the time to explore [[Obsidian power user PMS (OPUP)|OPUP]], you will get productivity gains that pay dividends in the long run.
+If you don't consider yourself to be a power user, don't worry! OPUP contains the documentation needed to understand how it works, the principles it follows, and how to continuously build off of it. If you take the time to explore OPUP, you will get productivity gains that pay dividends in the long run.
 ## features
-[[Obsidian power user PMS (OPUP)|OPUP]] can do the following:
+OPUP can do the following:
 
-- function as a [[personal knowledge management system (PKMS)]],
-- track time spent on different projects using a [[timesheet]],
+- function as a personal knowledge management system (PKMS),
+- track time spent on different projects using a timesheet,
 - and more (coming soon).
 ## setup
-You must install Obsidian before setting up [[Obsidian power user PMS (OPUP)|OPUP]].
+You must install Obsidian before setting up OPUP.
 
 1. Install Obsidian (if not already installed).
 2. Create a vault (if you don't already have one).
@@ -28,4 +28,8 @@ You must install Obsidian before setting up [[Obsidian power user PMS (OPUP)|OPU
 Open your obsidian vault and explore the notes linked below. You can always navigate back using the backlinks at the top of the note.
 
 - [[Obsidian power user PMS (OPUP)]]
+- [[Zettelkasten]]
+- [[personal knowledge management system (PKMS)]]
+- [[timesheet]]
+
 
