@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "",
+  "templates_folder": "obsidian-power-user-pms/templates",
   "templates_pairs": [
     [
       "",
@@ -29,7 +29,8 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "obsidian-power-user-pms/templates/zettel template.md"
+    "obsidian-power-user-pms/templates/zettel template.md",
+    "obsidian-power-user-pms/templates/time entry template.md"
   ],
   "startup_templates": [
     ""
