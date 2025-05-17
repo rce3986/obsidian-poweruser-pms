@@ -1,5 +1,5 @@
 tags #moc
-backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" ")`
+backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" - ")`
 weblinks 
 ___
 All Obsidian templates must be placed under the folder `obsidian-power-user-pms/templates` for the [[Templater plugin]] to make use of them.

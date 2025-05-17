@@ -1,5 +1,5 @@
 tags #moc
-backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" ")`
+backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" - ")`
 weblinks 
 ___
 Notes in the inbox are fleeting notes that haven't been backlinked to the web of permanent notes. It is important to periodically organize the inbox so that knowledge isn't lost in the chaos.

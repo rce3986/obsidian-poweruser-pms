@@ -1,8 +1,9 @@
 <%* 
+// Set title to current date and time.
 let displayDate = tp.date.now("YYYY-MM-DD ddd HH\\h mm\\m ss\\s");
 await tp.file.rename(displayDate); 
 %>tags 
-backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" ")`
+backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" - ")`
 weblinks 
 ___
 <% tp.file.cursor() %><%*
