@@ -15,7 +15,7 @@ OPUP can do the following:
 - track time spent on different projects using a timesheet,
 - and more (coming soon).
 ## setup
-You must install Obsidian before setting up OPUP.
+To setup OPUP, you must do the following:
 
 1. Install Obsidian (if not already installed).
 2. Create a vault (if you don't already have one).
@@ -23,7 +23,9 @@ You must install Obsidian before setting up OPUP.
 4. Navigate to your vault directory.  
 5. Clone this repo. A directory with the repo name should appear in the vault.
 6. Navigate into the cloned repo.
-7. Run `export_config.sh` to copy the `.obsidian` configuration into the vault root directory.
+7. Give execute permissions to `export_config.sh` and `import_config.sh`.
+8. Run `export_config.sh` to copy the `.obsidian` configuration into the vault root directory.
+9. Close and reopen obsidian to reload the configuration.
 ## explore
 Open your obsidian vault and explore the notes linked below. You can always navigate back using the backlinks at the top of the note.
 ### about OPUP
