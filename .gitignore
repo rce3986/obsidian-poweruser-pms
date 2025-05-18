@@ -5,3 +5,8 @@
 .obsidian/hotkeys.json
 .obsidian/workspace.json
 
+# archive
+# Ignore any non-configuration changes to archive. 
+# Comment out this line when you want to update the configuration of the archive.
+src/archive.md
+
