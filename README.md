@@ -23,8 +23,8 @@ To setup OPUP, you must do the following:
 4. Navigate to your vault directory.  
 5. Clone this repo. A directory with the repo name should appear in the vault.
 6. Navigate into the cloned repo.
-7. Give execute permissions to `export_config.sh` and `import_config.sh`.
-8. Run `export_config.sh` to copy the `.obsidian` configuration into the vault root directory.
+7. Give execute permissions to `src/export_config.sh` and `src/import_config.sh`.
+8. Run `./src/export_config.sh` to copy the `.obsidian` configuration into the vault root directory.
 9. Close and reopen obsidian to reload the configuration.
 ## explore
 Open your obsidian vault and explore the notes linked below. You can always navigate back using the backlinks at the top of the note.
@@ -36,5 +36,7 @@ Open your obsidian vault and explore the notes linked below. You can always navi
 ### features
 
 - [[timesheet]]
+## contributing
+There are a few additional setup steps if you are planning on customizing your OPUP configuration:
 
-
+1. Before modifying `src/archive.md`, run the command `git update-index --assume-unchanged src/archive.md`. This ensures that any non-configuration changes made to the archive won't show up in source control.
