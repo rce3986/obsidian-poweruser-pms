@@ -9,7 +9,6 @@ tp.hooks.on_all_templates_executed(async () => {
 });
 -%>
 
-backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" - ")`
+backlinks [[timesheet]] - `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" - ")`
 weblinks 
 ___
-[[timesheet]]
