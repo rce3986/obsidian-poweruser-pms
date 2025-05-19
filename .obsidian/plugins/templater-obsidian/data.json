@@ -30,7 +30,8 @@
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "obsidian-power-user-pms/templates/zettel template.md",
-    "obsidian-power-user-pms/templates/time entry template.md"
+    "obsidian-power-user-pms/templates/time entry template.md",
+    "obsidian-power-user-pms/templates/todo template.md"
   ],
   "startup_templates": [
     ""
