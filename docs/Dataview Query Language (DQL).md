@@ -1,5 +1,7 @@
 tags 
 backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" - ")`
-weblinks https://blacksmithgu.github.io/obsidian-dataview/reference/functions/
+weblinks https://blacksmithgu.github.io/obsidian-dataview/queries/dql-js-inline/#dataview-query-language-dql
 ___
-Functions for manipulating data in `dataview` blocks (e.g., filter, map, etc.).
+- [[Dataview data commands]]
+- [[Dataview functions]]
+
