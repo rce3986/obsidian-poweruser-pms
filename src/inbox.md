@@ -15,18 +15,19 @@ Below are all inbox notes included in this vault:
 
 let page = dv.page("main").file.path;
 
-// START CODE COPIED FROM HERE: https://blacksmithgu.github.io/obsidian-dataview/api/code-examples/#find-all-direct-and-indirectly-linked-pages
+// CODE COPIED FROM HERE: https://blacksmithgu.github.io/obsidian-dataview/api/code-examples/#find-all-direct-and-indirectly-linked-pages
 
 let pages = new Set();
 
 let stack = [page];
-while (stack.length > 0) {
+while (stack.length > 0)
+{
     let elem = stack.pop();
     let meta = dv.page(elem);
     if (!meta) continue;
 
-    for (let inlink of meta.file.inlinks.concat(meta.file.outlinks).array()) {
-        //console.log(inlink);
+    for (let inlink of meta.file.inlinks.concat(meta.file.outlinks).array())
+    {
         if (pages.has(inlink.path)) continue;
         pages.add(inlink.path);
         stack.push(inlink.path);
@@ -34,15 +35,25 @@ while (stack.length > 0) {
 }
 
 // Data is now the file metadata for every page that directly OR indirectly links to the main page.
-let data = dv.array(Array.from(pages)).map(p => dv.page(p));
+let linkedPages = 
+	dv.array(Array.from(pages))
+		.map(p => dv.page(p))
+		.filter(p => p) // ignore unresolved links
+;
 
-// END COPIED PORTION
-
-// List all pages that can't be linked to main.
-dv.list
-(
+// All pages that can't be linked to main.
+let unlinkedPageLinks =
 	dv.pages()
-		.filter(p1 => !data.some(p2 => p1.file.path === p2.file.path))
+		.filter(p1 => !linkedPages.some(p2 => p1.file.path === p2.file.path))
 		.map(p => p.file.link)
-)
+;
+
+if (unlinkedPageLinks.length > 0)
+{
+	dv.list(unlinkedPageLinks);
+}
+else
+{
+	dv.paragraph("\t\tDataview: No results to show for list query.");
+}
 ```
