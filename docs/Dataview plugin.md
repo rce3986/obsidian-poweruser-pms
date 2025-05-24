@@ -8,5 +8,7 @@ There's lots of bloat on the internet pertaining to the Dataview community plugi
 - [[Dataview metadata on pages]]
 - [[Dataview codeblock reference]]
 - [[Dataview metadata on tasks and lists]]
+- [[Dataview data commands]]
+
 
 
