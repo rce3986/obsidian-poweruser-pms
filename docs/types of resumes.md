@@ -3,4 +3,4 @@ backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current()
 weblinks 
 ___
 - [[chronological resume]]
-- [[skills-based resume]]
+- [[skills resume]]
