@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks 
 ___
 Notes in the inbox are fleeting notes that haven't been backlinked to the web of permanent notes. It is important to periodically organize the inbox so that knowledge isn't lost in the chaos.

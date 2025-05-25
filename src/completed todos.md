@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks 
 ___
 Below is a history of all completed todos:

@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks 
 ___
 MOCs are important for linking permanent notes. Below are some guidelines to follow when creating or updating MOCs:

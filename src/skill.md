@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks 
 ___
 To appear below, skills must follow the [[skill template]]. 

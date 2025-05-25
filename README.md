@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks 
 ___
 # obsidian-power-user-pms

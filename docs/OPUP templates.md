@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks 
 ___
 All Obsidian templates must be placed under the folder `obsidian-power-user-pms/templates` for the [[Templater plugin]] to make use of them.

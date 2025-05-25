@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks https://github.com/blacksmithgu/obsidian-dataview/issues/1372
 ___
 To avoid copy-pasting the inline query for backlinks for each zettel (using the [[Templater plugin]]), I wanted to store the backlink generation code in a separate `.js` file.

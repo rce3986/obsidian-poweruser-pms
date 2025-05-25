@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks https://blacksmithgu.github.io/obsidian-dataview/
 ___
 Read the GitHub page to understand how Dataview works. The links below are Dataview API and configuration reference docs.

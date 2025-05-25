@@ -1,3 +1,6 @@
+```dataviewjs
+await dv.view("scripts/Dataview/backlinks");
+```
 weblinks https://notes.linkingyourthinking.com/Cards/MOCs+Overview
 ___
 A map of content is a permanent note whose contents is a collection of related notes.
