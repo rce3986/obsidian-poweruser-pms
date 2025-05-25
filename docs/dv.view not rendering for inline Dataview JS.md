@@ -1,4 +1,3 @@
-backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" - ")`
 weblinks https://github.com/blacksmithgu/obsidian-dataview/issues/1372
 ___
 To avoid copy-pasting the inline query for backlinks for each zettel (using the [[Templater plugin]]), I wanted to store the backlink generation code in a separate `.js` file.
