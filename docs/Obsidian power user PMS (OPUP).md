@@ -2,7 +2,6 @@
 aliases:
   - OPUP
 ---
-tags 
 backlinks `$= dv.array(dv.current().file.inlinks).filter(inlink => !dv.current().file.outlinks.some(outlink => outlink.path === inlink.path)).join(" - ")`
 weblinks https://github.com/rce3986/obsidian-power-user-pms
 ___
