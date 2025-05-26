@@ -3,5 +3,8 @@
   "propertiesInDocument": "hidden",
   "newFileLocation": "folder",
   "newFileFolderPath": "notes",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "vimMode": true,
+  "trashOption": "local",
+  "promptDelete": false
 }
