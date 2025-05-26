@@ -1,5 +1,6 @@
+
 ```dataviewjs
-await dv.view("scripts/Dataview/backlinks");
+await customJS.DvUtils.backlinks(dv);
 ```
 weblinks 
 ___
@@ -12,8 +13,4 @@ Use the following links to manage and view your personal information.
 - [[archive]]
 - [[career]]
 - [[timesheet]]
-
-Read more about OPUP by navigating the links below.
-
-- [[README.opup]]
-- [[Obsidian power user PMS (OPUP)|OPUP]]
+- [[obsidian-power-user-pms/README|OPUP README]]

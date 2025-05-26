@@ -1,6 +1,6 @@
 ---
 aliases:
-  - README
+  - OPUP README
 ---
 ```dataviewjs
 await dv.view("scripts/Dataview/backlinks");
@@ -40,7 +40,7 @@ Open your obsidian vault and explore the notes linked below. You can always navi
 - [[Zettelkasten]]
 - [[OPUP principles]]
 - [[OPUP plugins]]
-- [[Obsidian inspector workflow]]
+- [[OPUP development]]
 - [[OPUP templates]]
 ### features
 
