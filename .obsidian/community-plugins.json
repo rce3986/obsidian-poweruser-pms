@@ -2,5 +2,6 @@
   "dataview",
   "templater-obsidian",
   "omnisearch",
-  "customjs"
+  "customjs",
+  "mrj-jump-to-link"
 ]
