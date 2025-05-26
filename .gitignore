@@ -1,7 +1,12 @@
 # .obsidian
-# Ignore appearance-based and user-preference configuration files.
+
+# Ignore env-specific files.
+.obsidian/workspace.json
+
+# Ignore appearance-based files. 
 .obsidian/appearance.json
 .obsidian/graph.json
-.obsidian/hotkeys.json
-.obsidian/workspace.json
+
+# Ignore user-preference files.
+#.obsidian/hotkeys.json
 
