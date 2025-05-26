@@ -1,12 +1,16 @@
+---
+aliases:
+  - README
+---
 ```dataviewjs
 await dv.view("scripts/Dataview/backlinks");
 ```
-weblinks 
+weblinks https://github.com/rce3986/obsidian-power-user-pms
 ___
 # obsidian-power-user-pms
 If viewing this on GitHub, don't be intimidated by the cryptic code at the top. It is a critical element of all notes in Obsidian power user PMS (OPUP).
 
-OPUP is a personal management system (PMS) geared towards power users using the Zettelkasten note-taking method in the Obsidian notes app.
+OPUP is a personal management system (PMS) geared towards power users using the Zettelkasten note-taking method in the Obsidian notes app. OPUP seeks to be minimalistic and quick to use with the tradeoff of not being so user-friendly.
 
 If you don't consider yourself to be a power user, don't worry! OPUP contains the documentation needed to understand how it works, the principles it follows, and how to continuously build off of it. If you take the time to explore OPUP, you will get productivity gains that pay dividends in the long run.
 ## features
@@ -31,9 +35,13 @@ To setup OPUP, you must do the following:
 Open your obsidian vault and explore the notes linked below. You can always navigate back using the backlinks at the top of the note.
 ### about OPUP
 
-- [[Obsidian power user PMS (OPUP)]]
+- [[personal management system (PMS)]]
+- [[map of content (MOC)]]
 - [[Zettelkasten]]
-- [[personal knowledge management system (PKMS)]]
+- [[OPUP principles]]
+- [[OPUP plugins]]
+- [[Obsidian inspector workflow]]
+- [[OPUP templates]]
 ### features
 
 - [[timesheet]]
