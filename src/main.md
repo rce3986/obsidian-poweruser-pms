@@ -15,5 +15,5 @@ Use the following links to manage and view your personal information.
 
 Read more about OPUP by navigating the links below.
 
-- [[README]]
+- [[README.opup]]
 - [[Obsidian power user PMS (OPUP)|OPUP]]
