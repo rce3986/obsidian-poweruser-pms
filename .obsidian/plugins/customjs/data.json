@@ -1,6 +1,6 @@
 {
   "jsFiles": "",
-  "jsFolder": "obsidian-power-user-pms/_scripts",
+  "jsFolder": "obsidian-power-user-pms/_scripts/macros",
   "startupScriptNames": [],
   "registeredInvocableScriptNames": [],
   "rerunStartupScriptsOnFileChange": false
