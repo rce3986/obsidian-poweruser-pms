@@ -7,29 +7,28 @@
       ""
     ]
   ],
-  "trigger_on_file_creation": false,
+  "trigger_on_file_creation": true,
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "obsidian-power-user-pms/scripts/Templater",
-  "enable_folder_templates": true,
+  "user_scripts_folder": "",
+  "enable_folder_templates": false,
   "folder_templates": [
     {
       "folder": "",
       "template": ""
     }
   ],
-  "enable_file_templates": false,
+  "enable_file_templates": true,
   "file_templates": [
     {
       "regex": ".*",
-      "template": ""
+      "template": "obsidian-power-user-pms/templates/zettel template.md"
     }
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "obsidian-power-user-pms/templates/zettel template.md",
     "obsidian-power-user-pms/templates/todo template.md",
     "obsidian-power-user-pms/templates/time entry template.md",
     "obsidian-power-user-pms/templates/skill template.md"
