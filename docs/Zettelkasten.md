@@ -1,5 +1,6 @@
+
 ```dataviewjs
-await dv.view("scripts/Dataview/backlinks");
+await customJS.Zettel.backlinks(dv);
 ```
 weblinks https://zettelkasten.de/overview/
 ___

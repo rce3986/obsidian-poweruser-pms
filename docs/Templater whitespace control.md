@@ -1,5 +1,6 @@
+
 ```dataviewjs
-await dv.view("scripts/Dataview/backlinks");
+await customJS.Zettel.backlinks(dv);
 ```
 weblinks https://silentvoid13.github.io/Templater/commands/whitespace-control.html
 ___

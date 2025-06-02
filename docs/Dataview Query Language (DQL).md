@@ -1,5 +1,6 @@
+
 ```dataviewjs
-await dv.view("scripts/Dataview/backlinks");
+await customJS.Zettel.backlinks(dv);
 ```
 weblinks https://blacksmithgu.github.io/obsidian-dataview/queries/dql-js-inline/#dataview-query-language-dql
 ___

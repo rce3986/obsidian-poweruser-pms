@@ -1,6 +1,6 @@
 
 ```dataviewjs
-await customJS.DvUtils.backlinks(dv);
+await customJS.Zettel.backlinks(dv);
 ```
 weblinks 
 ___

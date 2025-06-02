@@ -2,8 +2,9 @@
 aliases:
   - OPUP README
 ---
+
 ```dataviewjs
-await dv.view("scripts/Dataview/backlinks");
+await customJS.Zettel.backlinks(dv);
 ```
 weblinks https://github.com/rce3986/obsidian-power-user-pms
 ___
@@ -34,7 +35,6 @@ To setup OPUP, you must do the following:
 ## explore
 Open your obsidian vault and explore the notes linked below. You can always navigate back using the backlinks at the top of the note.
 ### about OPUP
-
 - [[personal management system (PMS)]]
 - [[map of content (MOC)]]
 - [[Zettelkasten]]
@@ -43,7 +43,6 @@ Open your obsidian vault and explore the notes linked below. You can always navi
 - [[OPUP development]]
 - [[OPUP templates]]
 ### features
-
 - [[timesheet]]
 ## contributing
 There are a few additional setup steps if you are planning on customizing your OPUP configuration:

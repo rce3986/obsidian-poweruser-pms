@@ -1,5 +1,6 @@
+
 ```dataviewjs
-await dv.view("scripts/Dataview/backlinks");
+await customJS.Zettel.backlinks(dv);
 ```
 weblinks https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/
 ___
