@@ -7,5 +7,5 @@
   "vimMode": true,
   "trashOption": "local",
   "promptDelete": false,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": false
 }
