@@ -3,5 +3,7 @@
   "templater-obsidian",
   "omnisearch",
   "customjs",
-  "mrj-jump-to-link"
+  "mrj-jump-to-link",
+  "obsidian-relative-line-numbers",
+  "obsidian-vimrc-support"
 ]
