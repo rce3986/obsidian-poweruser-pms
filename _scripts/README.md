@@ -1,6 +1,5 @@
 ---
-aliases:
-  - scripts README
+aliases: []
 ---
 
 ```dataviewjs

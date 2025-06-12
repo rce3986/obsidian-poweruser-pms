@@ -1,6 +1,5 @@
 ---
-aliases:
-  - OPUP README
+aliases: []
 ---
 
 ```dataviewjs

@@ -12,4 +12,4 @@ Use the following links to manage and view your personal information.
 - [[archive]]
 - [[career]]
 - [[timesheet]]
-- [[README.opup|OPUP README]]
+- [[obsidian-power-user-pms/README]]
