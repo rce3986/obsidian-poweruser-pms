@@ -9,7 +9,6 @@ This note acts as the root node of the vault: every note in the vault should be 
 Use the following links to manage and view your personal information.
 
 - [[inbox]]
-- [[todo]]
 - [[archive]]
 - [[career]]
 - [[timesheet]]
