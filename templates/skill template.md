@@ -1,2 +1,0 @@
-- [ ] [[skill]] <%* /* skill name */ %><% tp.file.cursor(1) %>
-	- [ ] [[<%* /* link to course/project that taught the skill */ %><% tp.file.cursor(2) %><%* /* description of actions performed to gain the skill */ %>
