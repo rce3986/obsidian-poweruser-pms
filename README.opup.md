@@ -39,6 +39,7 @@ Open your obsidian vault and explore the notes linked below. You can always navi
 - [[map of content (MOC)]]
 - [[Zettelkasten]]
 - [[OPUP principles]]
+- [[OPUP features]]
 - [[OPUP plugins]]
 - [[OPUP development]]
 - [[OPUP templates]]
