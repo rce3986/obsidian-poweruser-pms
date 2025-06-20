@@ -5,7 +5,7 @@ aliases: []
 ```dataviewjs
 await customJS.Zettel.backlinks(dv);
 ```
-weblinks https://github.com/rce3986/obsidian-power-user-pms
+weblinks https://github.com/ryan-c-elliott/obsidian-power-user-pms
 ___
 # obsidian-power-user-pms
 If viewing this on GitHub, don't be intimidated by the cryptic code at the top. It is a critical element of all notes in Obsidian power user PMS (OPUP).
