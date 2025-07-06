@@ -25,8 +25,3 @@ nmap n :newnote<CR>
 " Jump to next cursor location
 exmap nextcursor obcommand templater-obsidian:jump-to-next-cursor-location
 nmap gi :nextcursor<CR>
-
-" Omnisearch
-exmap omnisearch obcommand omnisearch:show-modal
-nmap o :omnisearch<CR>
-

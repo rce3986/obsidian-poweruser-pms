@@ -25,6 +25,12 @@
         "Shift"
       ],
       "key": "F"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
     }
   ],
   "workspace:close": [],
